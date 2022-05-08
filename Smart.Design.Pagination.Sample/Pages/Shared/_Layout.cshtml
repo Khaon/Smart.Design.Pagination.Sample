@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+<html class="u-maximize-height" lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Pagination</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body class="u-maximize-height">
+    <div class="u-spacer-l">
+        @RenderBody()
+    </div>
+
+<script src="https://design.smart.coop/js/bundle-client.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
